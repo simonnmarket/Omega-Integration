@@ -7,3 +7,4 @@ evidence/runtime/
 *.secret
 *.pem
 *.key
+runtime/python/
