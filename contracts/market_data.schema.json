@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "omega://contracts/market-data-v1",
+  "title": "OMEGA Normalized Market Data",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["event_id", "symbol", "asset_class", "timestamp", "bid", "ask", "source", "timeframe", "closed"],
+  "properties": {
+    "event_id": {"type": "string", "minLength": 1},
+    "symbol": {"type": "string", "minLength": 1},
+    "asset_class": {"type": "string", "enum": ["fx", "metal", "index", "energy", "crypto", "other"]},
+    "timestamp": {"type": "string", "format": "date-time"},
+    "bid": {"type": "number", "exclusiveMinimum": 0},
+    "ask": {"type": "number", "exclusiveMinimum": 0},
+    "last": {"type": ["number", "null"]},
+    "volume": {"type": ["number", "null"], "minimum": 0},
+    "source": {"type": "string", "minLength": 1},
+    "timeframe": {"type": "string", "minLength": 1},
+    "closed": {"type": "boolean"}
+  }
+}

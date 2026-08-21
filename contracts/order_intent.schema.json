@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "omega://contracts/order-intent-v1",
+  "title": "OMEGA Approved Order Intent",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["intent_id", "signal_id", "symbol", "side", "volume", "risk_budget", "created_at", "expires_at"],
+  "properties": {
+    "intent_id": {"type": "string", "minLength": 1},
+    "signal_id": {"type": "string", "minLength": 1},
+    "symbol": {"type": "string", "minLength": 1},
+    "side": {"type": "string", "enum": ["BUY", "SELL"]},
+    "volume": {"type": "number", "exclusiveMinimum": 0},
+    "stop_loss": {"type": ["number", "null"], "exclusiveMinimum": 0},
+    "take_profit": {"type": ["number", "null"], "exclusiveMinimum": 0},
+    "magic": {"type": ["integer", "null"]},
+    "risk_budget": {"type": "number", "minimum": 0},
+    "created_at": {"type": "string", "format": "date-time"},
+    "expires_at": {"type": "string", "format": "date-time"}
+  }
+}

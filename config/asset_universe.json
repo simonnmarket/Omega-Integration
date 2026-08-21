@@ -1,0 +1,17 @@
+{
+  "version": "1.0.0",
+  "policy": "symbols_are_enabled_only_after_broker_mapping_and_fixture_validation",
+  "assets": [
+    {"symbol": "EURUSD", "asset_class": "fx", "enabled": true},
+    {"symbol": "GBPUSD", "asset_class": "fx", "enabled": true},
+    {"symbol": "USDJPY", "asset_class": "fx", "enabled": true},
+    {"symbol": "XAUUSD", "asset_class": "metal", "enabled": true},
+    {"symbol": "XAGUSD", "asset_class": "metal", "enabled": true},
+    {"symbol": "US500", "asset_class": "index", "enabled": true},
+    {"symbol": "GER40", "asset_class": "index", "enabled": true},
+    {"symbol": "UK100", "asset_class": "index", "enabled": true},
+    {"symbol": "UKOIL+", "asset_class": "energy", "enabled": true},
+    {"symbol": "BTCUSD", "asset_class": "crypto", "enabled": false},
+    {"symbol": "ETHUSD", "asset_class": "crypto", "enabled": false}
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "omega://contracts/signal-v1",
+  "title": "OMEGA Strategy Signal",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["signal_id", "event_id", "symbol", "strategy_id", "direction", "score", "confidence", "generated_at", "valid_until"],
+  "properties": {
+    "signal_id": {"type": "string", "minLength": 1},
+    "event_id": {"type": "string", "minLength": 1},
+    "symbol": {"type": "string", "minLength": 1},
+    "strategy_id": {"type": "string", "minLength": 1},
+    "direction": {"type": "string", "enum": ["BUY", "SELL", "FLAT"]},
+    "score": {"type": "number"},
+    "confidence": {"type": "number", "minimum": 0, "maximum": 1},
+    "generated_at": {"type": "string", "format": "date-time"},
+    "valid_until": {"type": "string", "format": "date-time"},
+    "features_ref": {"type": ["string", "null"]}
+  }
+}
