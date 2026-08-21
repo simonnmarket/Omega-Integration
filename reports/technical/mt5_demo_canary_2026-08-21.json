@@ -1,0 +1,37 @@
+{
+  "verdict": "PASS",
+  "preflight": {
+    "login": 510075151,
+    "server": "HantecMarketsMU-MT5",
+    "trade_mode": 0,
+    "balance": "5715.35",
+    "equity": "5715.35",
+    "symbol": "XAUUSD",
+    "bid": "4622.77",
+    "ask": "4623.12",
+    "terminal_path": "C:\\Program Files\\MetaTrader 5"
+  },
+  "entry": {
+    "ticket": 218842708,
+    "order_id": 218842708,
+    "deal_id": 233695545,
+    "symbol": "XAUUSD",
+    "volume": "0.01",
+    "side": "BUY",
+    "retcode": 10009,
+    "comment": "Request executed",
+    "sent_at": "2026-08-21T19:14:19.739785+00:00"
+  },
+  "exit": {
+    "ticket": 218842709,
+    "order_id": 218842709,
+    "deal_id": 233695546,
+    "symbol": "XAUUSD",
+    "volume": "0.01",
+    "side": "SELL",
+    "retcode": 10009,
+    "comment": "Request executed",
+    "sent_at": "2026-08-21T19:14:19.769295+00:00"
+  },
+  "zero_exposure": true
+}

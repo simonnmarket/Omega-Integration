@@ -17,5 +17,10 @@
 | 2026-08-21 | Added pure risk and spread-cost gate between signal and order intent | PASS - 11 offline contract tests | None |
 | 2026-08-21 | Closed offline integrated candidate path: line signal -> risk gate -> intent -> fake execution | PASS - 13 offline tests; 1 BUY fake fill, 1 FLAT denied | None |
 | 2026-08-21 | Installed official MetaTrader5 dependency and attempted read-only Hantec preflight | BLOCKED - two MT5 terminals active; account_info timeout; zero order_send | runtime/python ignored; report preserved |
+| 2026-08-21 | Connected real MT5 DEMO session read-only via explicit terminal path | PASS - DEMO 510075151, HantecMarketsMU-MT5, XAUUSD tick | No order sent in preflight |
+| 2026-08-21 | Corrected DEMO hedging reconciliation before canary | PASS - position ticket resolved from post-entry snapshot | No order sent |
+| 2026-08-21 | Corrected real DEMO canary runner import path | PASS - entrypoint now resolves project contracts | No order sent |
+| 2026-08-21 | Corrected MT5 order comment length after broker order_check | IN PROGRESS - canary retry of same authorized attempt | No order sent before correction |
+| 2026-08-21 | Corrected broker filling-mode bitmask mapping for XAUUSD | IN PROGRESS - canary retry of same authorized attempt | No order sent before correction |
 
 Future work must append one row per material command or change. Do not rewrite prior rows.
