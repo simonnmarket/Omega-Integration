@@ -2,6 +2,7 @@ from __future__ import annotations
 
 from dataclasses import dataclass
 from decimal import Decimal
+from datetime import datetime
 
 
 @dataclass(frozen=True)
@@ -33,3 +34,16 @@ class FakeExecution:
     position_id: str
     status: str
 
+
+@dataclass(frozen=True)
+class Signal:
+    signal_id: str
+    event_id: str
+    symbol: str
+    strategy_id: str
+    direction: str
+    score: Decimal
+    confidence: Decimal
+    generated_at: datetime
+    valid_until: datetime
+    features_ref: str | None = None
