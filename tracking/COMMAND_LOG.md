@@ -8,5 +8,6 @@
 | 2026-08-21 | Read-only Numeia source audit: 81 MQL5 files, 18 broker matches, 63 stub matches | PASS | None |
 | 2026-08-21 | Python unit test for source audit | PASS - 1 test | None |
 | 2026-08-21 | Static triage of seven candidate ecosystems | PASS - matrix created | None |
+| 2026-08-21 | Analyzed discovered Numeia v5.1 portfolio EA | PASS - candidate report | None |
 
 Future work must append one row per material command or change. Do not rewrite prior rows.
