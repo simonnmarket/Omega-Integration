@@ -1,0 +1,19 @@
+{
+  "schema": "omega.forensic-log-summary.v1",
+  "source": "E:\\Theodora 13092025 BAB\\trading_debug.log",
+  "lines": 13880,
+  "first_timestamp": "2025-09-09 22:08:00.207000",
+  "last_timestamp": "2025-09-10 00:10:58.053000",
+  "elapsed_seconds": 7377.846,
+  "events": {
+    "order_attempt_or_rejection": 1312,
+    "other": 10790,
+    "runtime_error": 702,
+    "scan_cycle": 1076
+  },
+  "trade_count_reports": 1076,
+  "trade_count_max_reported": 0,
+  "trade_count_sum_reported": 0,
+  "broker_access": "NOT_PERFORMED_PARSER_ONLY",
+  "economic_interpretation": "NOT_ESTABLISHED"
+}
