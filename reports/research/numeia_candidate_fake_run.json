@@ -1,0 +1,155 @@
+{
+  "candidate": "NUMEIA_V5_1_PORTFOLIO_CANDIDATE",
+  "mode": "FAKE_EXECUTOR",
+  "equity": 10000,
+  "intents": [
+    {
+      "intent_id": "NUMEIA_V5_1_PORTFOLIO_CANDIDATE:INIT:US500",
+      "symbol": "US500",
+      "side": "BUY",
+      "volume": "20.00",
+      "target_value": "2000.00",
+      "source": "NUMEIA_V5_1_PORTFOLIO_CANDIDATE",
+      "reason": "initial_target_weight"
+    },
+    {
+      "intent_id": "NUMEIA_V5_1_PORTFOLIO_CANDIDATE:INIT:GER40",
+      "symbol": "GER40",
+      "side": "BUY",
+      "volume": "15.00",
+      "target_value": "1500.00",
+      "source": "NUMEIA_V5_1_PORTFOLIO_CANDIDATE",
+      "reason": "initial_target_weight"
+    },
+    {
+      "intent_id": "NUMEIA_V5_1_PORTFOLIO_CANDIDATE:INIT:UK100",
+      "symbol": "UK100",
+      "side": "BUY",
+      "volume": "15.00",
+      "target_value": "1500.00",
+      "source": "NUMEIA_V5_1_PORTFOLIO_CANDIDATE",
+      "reason": "initial_target_weight"
+    },
+    {
+      "intent_id": "NUMEIA_V5_1_PORTFOLIO_CANDIDATE:INIT:XAUUSD",
+      "symbol": "XAUUSD",
+      "side": "BUY",
+      "volume": "15.00",
+      "target_value": "1500.00",
+      "source": "NUMEIA_V5_1_PORTFOLIO_CANDIDATE",
+      "reason": "initial_target_weight"
+    },
+    {
+      "intent_id": "NUMEIA_V5_1_PORTFOLIO_CANDIDATE:INIT:XAGUSD",
+      "symbol": "XAGUSD",
+      "side": "BUY",
+      "volume": "5.00",
+      "target_value": "500.00",
+      "source": "NUMEIA_V5_1_PORTFOLIO_CANDIDATE",
+      "reason": "initial_target_weight"
+    },
+    {
+      "intent_id": "NUMEIA_V5_1_PORTFOLIO_CANDIDATE:INIT:UKOIL+",
+      "symbol": "UKOIL+",
+      "side": "BUY",
+      "volume": "5.00",
+      "target_value": "500.00",
+      "source": "NUMEIA_V5_1_PORTFOLIO_CANDIDATE",
+      "reason": "initial_target_weight"
+    },
+    {
+      "intent_id": "NUMEIA_V5_1_PORTFOLIO_CANDIDATE:INIT:EURUSD",
+      "symbol": "EURUSD",
+      "side": "BUY",
+      "volume": "7.00",
+      "target_value": "700.00",
+      "source": "NUMEIA_V5_1_PORTFOLIO_CANDIDATE",
+      "reason": "initial_target_weight"
+    },
+    {
+      "intent_id": "NUMEIA_V5_1_PORTFOLIO_CANDIDATE:INIT:GBPUSD",
+      "symbol": "GBPUSD",
+      "side": "BUY",
+      "volume": "7.00",
+      "target_value": "700.00",
+      "source": "NUMEIA_V5_1_PORTFOLIO_CANDIDATE",
+      "reason": "initial_target_weight"
+    },
+    {
+      "intent_id": "NUMEIA_V5_1_PORTFOLIO_CANDIDATE:INIT:USDJPY",
+      "symbol": "USDJPY",
+      "side": "BUY",
+      "volume": "6.00",
+      "target_value": "600.00",
+      "source": "NUMEIA_V5_1_PORTFOLIO_CANDIDATE",
+      "reason": "initial_target_weight"
+    }
+  ],
+  "executions": [
+    {
+      "intent_id": "NUMEIA_V5_1_PORTFOLIO_CANDIDATE:INIT:US500",
+      "order_id": "FAKE-ORDER-0001",
+      "deal_id": "FAKE-DEAL-0001",
+      "position_id": "FAKE-POS-0001",
+      "status": "FILLED_FAKE"
+    },
+    {
+      "intent_id": "NUMEIA_V5_1_PORTFOLIO_CANDIDATE:INIT:GER40",
+      "order_id": "FAKE-ORDER-0002",
+      "deal_id": "FAKE-DEAL-0002",
+      "position_id": "FAKE-POS-0002",
+      "status": "FILLED_FAKE"
+    },
+    {
+      "intent_id": "NUMEIA_V5_1_PORTFOLIO_CANDIDATE:INIT:UK100",
+      "order_id": "FAKE-ORDER-0003",
+      "deal_id": "FAKE-DEAL-0003",
+      "position_id": "FAKE-POS-0003",
+      "status": "FILLED_FAKE"
+    },
+    {
+      "intent_id": "NUMEIA_V5_1_PORTFOLIO_CANDIDATE:INIT:XAUUSD",
+      "order_id": "FAKE-ORDER-0004",
+      "deal_id": "FAKE-DEAL-0004",
+      "position_id": "FAKE-POS-0004",
+      "status": "FILLED_FAKE"
+    },
+    {
+      "intent_id": "NUMEIA_V5_1_PORTFOLIO_CANDIDATE:INIT:XAGUSD",
+      "order_id": "FAKE-ORDER-0005",
+      "deal_id": "FAKE-DEAL-0005",
+      "position_id": "FAKE-POS-0005",
+      "status": "FILLED_FAKE"
+    },
+    {
+      "intent_id": "NUMEIA_V5_1_PORTFOLIO_CANDIDATE:INIT:UKOIL+",
+      "order_id": "FAKE-ORDER-0006",
+      "deal_id": "FAKE-DEAL-0006",
+      "position_id": "FAKE-POS-0006",
+      "status": "FILLED_FAKE"
+    },
+    {
+      "intent_id": "NUMEIA_V5_1_PORTFOLIO_CANDIDATE:INIT:EURUSD",
+      "order_id": "FAKE-ORDER-0007",
+      "deal_id": "FAKE-DEAL-0007",
+      "position_id": "FAKE-POS-0007",
+      "status": "FILLED_FAKE"
+    },
+    {
+      "intent_id": "NUMEIA_V5_1_PORTFOLIO_CANDIDATE:INIT:GBPUSD",
+      "order_id": "FAKE-ORDER-0008",
+      "deal_id": "FAKE-DEAL-0008",
+      "position_id": "FAKE-POS-0008",
+      "status": "FILLED_FAKE"
+    },
+    {
+      "intent_id": "NUMEIA_V5_1_PORTFOLIO_CANDIDATE:INIT:USDJPY",
+      "order_id": "FAKE-ORDER-0009",
+      "deal_id": "FAKE-DEAL-0009",
+      "position_id": "FAKE-POS-0009",
+      "status": "FILLED_FAKE"
+    }
+  ],
+  "broker_access": "NONE",
+  "profit": "NOT_EVALUATED"
+}
