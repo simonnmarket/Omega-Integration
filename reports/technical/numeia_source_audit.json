@@ -1,0 +1,1266 @@
+{
+  "schema": "omega.numeia.source-audit.v1",
+  "source_root": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-06-27\\vo\\Numeia-250625-working",
+  "source_root_exists": true,
+  "read_only": true,
+  "file_count": 81,
+  "broker_match_count": 18,
+  "stub_match_count": 63,
+  "files": [
+    {
+      "path": "Agents/MarketAnalysisAgent.mqh",
+      "bytes": 2945,
+      "sha256": "A8E5DDFFF85DAF888081B6A358332D1F29E0A74EA8D144A433157A86B89BD5DA",
+      "broker_matches": [],
+      "stub_matches": [
+        {
+          "line": 56,
+          "patterns": [
+            "placeholder"
+          ],
+          "text": "//--- Verifica volume institucional (placeholder para futura l\u00f3gica de dark pool)"
+        },
+        {
+          "line": 79,
+          "patterns": [
+            "permissive_true"
+          ],
+          "text": "return true;"
+        }
+      ],
+      "classification": "analysis_or_support_candidate"
+    },
+    {
+      "path": "Agents/PatternModels/EngulfingPattern.mqh",
+      "bytes": 1636,
+      "sha256": "62F98154653A2370BD1EA67B2EE505179BC699C8D23E6EE206930C082E3EA5AE",
+      "broker_matches": [],
+      "stub_matches": [
+        {
+          "line": 25,
+          "patterns": [
+            "permissive_true"
+          ],
+          "text": "return true;"
+        },
+        {
+          "line": 46,
+          "patterns": [
+            "permissive_true"
+          ],
+          "text": "return true;"
+        },
+        {
+          "line": 50,
+          "patterns": [
+            "permissive_true"
+          ],
+          "text": "return true;"
+        }
+      ],
+      "classification": "analysis_or_support_candidate"
+    },
+    {
+      "path": "Agents/PatternModels/PatternBase.mqh",
+      "bytes": 697,
+      "sha256": "BC686639686F5A6DA18F443D9D25B95E5743EA135FB20E15803A2620988F6BF4",
+      "broker_matches": [],
+      "stub_matches": [],
+      "classification": "analysis_or_support_candidate"
+    },
+    {
+      "path": "Agents/PatternModels/PatternRegistry.mqh",
+      "bytes": 1249,
+      "sha256": "EF3413768EFDC1762E442C37D0A95A94B700E02342CD33F0DD2D13BD7EC0F5F6",
+      "broker_matches": [],
+      "stub_matches": [],
+      "classification": "analysis_or_support_candidate"
+    },
+    {
+      "path": "Agents/PatternRecognitionAgent.mqh",
+      "bytes": 1911,
+      "sha256": "579E6160C8D5BDB039ACD51EF58462F3297AE178C1A45ABA06F62AFAB32B9B61",
+      "broker_matches": [],
+      "stub_matches": [],
+      "classification": "analysis_or_support_candidate"
+    },
+    {
+      "path": "Agents/RiskAgent.mqh",
+      "bytes": 799,
+      "sha256": "89841C830D58352D955C37E88899C7F24B3C155466D45B13A31452DEBF649840",
+      "broker_matches": [],
+      "stub_matches": [
+        {
+          "line": 25,
+          "patterns": [
+            "permissive_true"
+          ],
+          "text": "return true;"
+        }
+      ],
+      "classification": "analysis_or_support_candidate"
+    },
+    {
+      "path": "Agents/TradingAgent.mqh",
+      "bytes": 8126,
+      "sha256": "0E14D756F45F32073D77EF92B2B94F183F9D29A6FAD2A67C96FC818AE0B78D96",
+      "broker_matches": [
+        {
+          "line": 39,
+          "patterns": [
+            "ctrade"
+          ],
+          "text": "CTrade trade;"
+        },
+        {
+          "line": 166,
+          "patterns": [
+            "buy"
+          ],
+          "text": "return trade.Buy(volume, signal.symbol, signal.price, signal.stopLoss, signal.takeProfit, signal.strategy);"
+        },
+        {
+          "line": 168,
+          "patterns": [
+            "sell"
+          ],
+          "text": "return trade.Sell(volume, signal.symbol, signal.price, signal.stopLoss, signal.takeProfit, signal.strategy);"
+        }
+      ],
+      "stub_matches": [
+        {
+          "line": 139,
+          "patterns": [
+            "permissive_true"
+          ],
+          "text": "return true;"
+        }
+      ],
+      "classification": "execution_boundary_candidate"
+    },
+    {
+      "path": "ArquiteturaVisual.mq5",
+      "bytes": 14064,
+      "sha256": "93FBFAF7EB0DE2946B766A047E8BA23E88479D88E7319AD5871E7950E2986783",
+      "broker_matches": [],
+      "stub_matches": [
+        {
+          "line": 53,
+          "patterns": [
+            "permissive_true"
+          ],
+          "text": "return true;"
+        }
+      ],
+      "classification": "analysis_or_support_candidate"
+    },
+    {
+      "path": "Auditor/AuditLogger.mqh",
+      "bytes": 2999,
+      "sha256": "DEBDA2754C5FF7D735DC66C5E8349C20D4CC0E49177CE973F7E0C8DF4175A6B1",
+      "broker_matches": [],
+      "stub_matches": [],
+      "classification": "analysis_or_support_candidate"
+    },
+    {
+      "path": "Auditor/AuditManager.mqh",
+      "bytes": 3661,
+      "sha256": "B358B3CDFA7133678EA8782BD93C610328E3EDAD57F70A6B970B8A5157A564A9",
+      "broker_matches": [],
+      "stub_matches": [
+        {
+          "line": 23,
+          "patterns": [
+            "permissive_true"
+          ],
+          "text": "return true;"
+        },
+        {
+          "line": 46,
+          "patterns": [
+            "permissive_true"
+          ],
+          "text": "return true;"
+        },
+        {
+          "line": 57,
+          "patterns": [
+            "permissive_true"
+          ],
+          "text": "return true;"
+        },
+        {
+          "line": 70,
+          "patterns": [
+            "permissive_true"
+          ],
+          "text": "return true;"
+        }
+      ],
+      "classification": "analysis_or_support_candidate"
+    },
+    {
+      "path": "Config/GlobalConfig.mqh",
+      "bytes": 1001,
+      "sha256": "73956A098F88C4F7FEF4EFC0D7456DE684728C66A79DE40B73992859DDACC2E2",
+      "broker_matches": [],
+      "stub_matches": [],
+      "classification": "analysis_or_support_candidate"
+    },
+    {
+      "path": "Config/RiskConfig.mqh",
+      "bytes": 1538,
+      "sha256": "1EA35A0260A9CD4AFA965FF65C36891A180E8A8FB920F9243908E8FAF1D89575",
+      "broker_matches": [],
+      "stub_matches": [],
+      "classification": "analysis_or_support_candidate"
+    },
+    {
+      "path": "Core/AuditInterface.mqh",
+      "bytes": 1285,
+      "sha256": "0FA2C47D11920863EDAF79EF9F85EFC78D17ABAC934F478D526D9FC17520A9B5",
+      "broker_matches": [],
+      "stub_matches": [],
+      "classification": "analysis_or_support_candidate"
+    },
+    {
+      "path": "Core/CoreBrainManager.mqh",
+      "bytes": 6046,
+      "sha256": "D0E572AEC60493AB07A75BBB2EA53CD2E60F4516FB6907690F8FDA2D43C28D91",
+      "broker_matches": [],
+      "stub_matches": [
+        {
+          "line": 124,
+          "patterns": [
+            "permissive_true"
+          ],
+          "text": "return true;"
+        }
+      ],
+      "classification": "analysis_or_support_candidate"
+    },
+    {
+      "path": "Core/ExecutionOrchestrator.mqh",
+      "bytes": 1976,
+      "sha256": "C4BA0A75EA87BF270B3822092406BA37AD79B639D78DE97F6B7007EBF6171E1F",
+      "broker_matches": [],
+      "stub_matches": [
+        {
+          "line": 41,
+          "patterns": [
+            "placeholder"
+          ],
+          "text": "// Placeholders \u2014 para conectar com os agentes reais posteriormente"
+        }
+      ],
+      "classification": "analysis_or_support_candidate"
+    },
+    {
+      "path": "Core/ModuleRegistry.mqh",
+      "bytes": 14890,
+      "sha256": "18DBDE94E9A9E75691E65A6353A7EC8D5EC60014CA72FA36029FD4FCE71276ED",
+      "broker_matches": [],
+      "stub_matches": [
+        {
+          "line": 95,
+          "patterns": [
+            "permissive_true"
+          ],
+          "text": "return true;"
+        },
+        {
+          "line": 114,
+          "patterns": [
+            "permissive_true"
+          ],
+          "text": "return true;"
+        },
+        {
+          "line": 133,
+          "patterns": [
+            "permissive_true"
+          ],
+          "text": "return true;"
+        },
+        {
+          "line": 299,
+          "patterns": [
+            "permissive_true"
+          ],
+          "text": "if(dep.sourceModule == moduleName || dep.targetModule == moduleName) return true;"
+        },
+        {
+          "line": 307,
+          "patterns": [
+            "permissive_true"
+          ],
+          "text": "if(integration.moduleA == moduleName || integration.moduleB == moduleName) return true;"
+        },
+        {
+          "line": 319,
+          "patterns": [
+            "permissive_true"
+          ],
+          "text": "return true;"
+        }
+      ],
+      "classification": "analysis_or_support_candidate"
+    },
+    {
+      "path": "Core/types.mqh",
+      "bytes": 2602,
+      "sha256": "16021A8AE6C85CB18290C7E8200B33FFB51371C2268C71FC7D26CEBA53E4F48D",
+      "broker_matches": [],
+      "stub_matches": [],
+      "classification": "analysis_or_support_candidate"
+    },
+    {
+      "path": "EXECUTAR_ARQUITETURA.mq5",
+      "bytes": 8535,
+      "sha256": "9140DA6B38FF7E67019AF77BC6747D3E17D828EAFA852A652F73BC7C07563BFD",
+      "broker_matches": [],
+      "stub_matches": [],
+      "classification": "analysis_or_support_candidate"
+    },
+    {
+      "path": "Expert/NumeiaEA.mq5",
+      "bytes": 17860,
+      "sha256": "06C39F9EB67146689CF9ABEE7DABB975F9EA76652C55C9D9984FAFA1EF64D40F",
+      "broker_matches": [
+        {
+          "line": 76,
+          "patterns": [
+            "ctrade"
+          ],
+          "text": "CTrade trade;"
+        },
+        {
+          "line": 291,
+          "patterns": [
+            "buy"
+          ],
+          "text": "bool result = trade.Buy(volume, symbol, 0, 0, 0, \"Numeia v5.1 Multi-Asset\");"
+        },
+        {
+          "line": 439,
+          "patterns": [
+            "position_close"
+          ],
+          "text": "return trade.PositionClosePartial(ticket, volumeToSell);"
+        },
+        {
+          "line": 479,
+          "patterns": [
+            "position_close"
+          ],
+          "text": "trade.PositionClose(ticket);"
+        }
+      ],
+      "stub_matches": [
+        {
+          "line": 324,
+          "patterns": [
+            "permissive_true"
+          ],
+          "text": "return true;"
+        }
+      ],
+      "classification": "execution_boundary_candidate"
+    },
+    {
+      "path": "Include/Analysis/MarketAnalyzer.mqh",
+      "bytes": 3151,
+      "sha256": "1C999A0AE9A6EAD654E2CFB32FD26DF96F460987309F96E87F88F09F0CEC7A25",
+      "broker_matches": [],
+      "stub_matches": [],
+      "classification": "analysis_or_support_candidate"
+    },
+    {
+      "path": "Include/Analysis/OrderFlowAnalyzer.mqh",
+      "bytes": 2160,
+      "sha256": "9050555E4706B0F3A564798349778AC18328370D2220FF7DA456DFD8874BFAC0",
+      "broker_matches": [],
+      "stub_matches": [],
+      "classification": "analysis_or_support_candidate"
+    },
+    {
+      "path": "Include/Analysis/SignalValidator.mqh",
+      "bytes": 938,
+      "sha256": "49A7A709365347857849C4F3D6323E5905D1429EFE842A25CA78ADA70E311D5F",
+      "broker_matches": [],
+      "stub_matches": [
+        {
+          "line": 24,
+          "patterns": [
+            "permissive_true"
+          ],
+          "text": "return true;"
+        }
+      ],
+      "classification": "analysis_or_support_candidate"
+    },
+    {
+      "path": "Include/Analysis/STOBarDetector.mqh",
+      "bytes": 3154,
+      "sha256": "71D4E6F546D4EB34B13FFA836CAF46E51EC9A02D06AD2C4809B43902B0DC5A60",
+      "broker_matches": [],
+      "stub_matches": [],
+      "classification": "analysis_or_support_candidate"
+    },
+    {
+      "path": "Include/Analysis/STOBarULTIMATE.mqh",
+      "bytes": 3494,
+      "sha256": "607E50CC38D9229A4485E113DC2B2AC3A9ECAE3E7BAC4123CBD14D761760C87A",
+      "broker_matches": [],
+      "stub_matches": [],
+      "classification": "analysis_or_support_candidate"
+    },
+    {
+      "path": "Include/Analysis/STOForceHistogram.mqh",
+      "bytes": 6054,
+      "sha256": "48837823CA260701C4046F9F7A6C3717EDC7811C2E0592A0EA0B7B62ED14AE61",
+      "broker_matches": [],
+      "stub_matches": [],
+      "classification": "analysis_or_support_candidate"
+    },
+    {
+      "path": "Include/Analysis/VolumeDecisionEngine.mqh",
+      "bytes": 1899,
+      "sha256": "2A3B32B6380A897ED53A5F123717DD57991957283447C1147AA10637294BE495",
+      "broker_matches": [],
+      "stub_matches": [],
+      "classification": "analysis_or_support_candidate"
+    },
+    {
+      "path": "Include/Analysis/VolumeProfile.mqh",
+      "bytes": 2877,
+      "sha256": "E214709AC74DEFF98D5E243A127A935CF3734F9BA01C6A5E2FBD4EEACC2EEB62",
+      "broker_matches": [],
+      "stub_matches": [],
+      "classification": "analysis_or_support_candidate"
+    },
+    {
+      "path": "Include/Analysis/WeisWaveAnalyzer.mqh",
+      "bytes": 2817,
+      "sha256": "DF20B1F18ACFD9E61D4B65D72C25FCC266DDD6E0AF52CA829691F5AEC1ED2010",
+      "broker_matches": [],
+      "stub_matches": [
+        {
+          "line": 108,
+          "patterns": [
+            "permissive_true"
+          ],
+          "text": "return true;"
+        }
+      ],
+      "classification": "analysis_or_support_candidate"
+    },
+    {
+      "path": "Include/DecisionEngine/DecisionRouter.mqh",
+      "bytes": 1923,
+      "sha256": "254FDECE807E3DBB770AB63DCA90412BF7899D67C05F548DEAA861587F76CB11",
+      "broker_matches": [],
+      "stub_matches": [
+        {
+          "line": 42,
+          "patterns": [
+            "permissive_true"
+          ],
+          "text": "return true;"
+        },
+        {
+          "line": 51,
+          "patterns": [
+            "permissive_true"
+          ],
+          "text": "return true;"
+        }
+      ],
+      "classification": "analysis_or_support_candidate"
+    },
+    {
+      "path": "Include/DecisionEngine/SignalConsensusEngine.mqh",
+      "bytes": 2686,
+      "sha256": "8763D88A7DA230C5F5001ED9521B4033D6842D10908B2CF1A4C03AB681253BAE",
+      "broker_matches": [],
+      "stub_matches": [],
+      "classification": "analysis_or_support_candidate"
+    },
+    {
+      "path": "Include/DecisionEngine/SignalController.mqh",
+      "bytes": 2560,
+      "sha256": "0DDCC3EFCE258A1B56F15BF51E681C1FC44BCE11BF4A197949F6565A96356269",
+      "broker_matches": [],
+      "stub_matches": [],
+      "classification": "analysis_or_support_candidate"
+    },
+    {
+      "path": "Include/ExecutionLogic/DefenseAgent.mqh",
+      "bytes": 1479,
+      "sha256": "B4FE54C614CBED4CA56D2ECF4D1484A407A4EB58CDBF444871454D5D2805CD90",
+      "broker_matches": [],
+      "stub_matches": [
+        {
+          "line": 23,
+          "patterns": [
+            "placeholder"
+          ],
+          "text": "ds.hurst       = 0.5; // placeholder qu\u00e2ntico"
+        }
+      ],
+      "classification": "analysis_or_support_candidate"
+    },
+    {
+      "path": "Include/ExecutionLogic/DefenseOrchestrator.mqh",
+      "bytes": 4687,
+      "sha256": "9A97BE122BAD8F2AB2F47208F3A7EDC3BD09E89F7ED371EC77FC7C9A1EFC00E6",
+      "broker_matches": [
+        {
+          "line": 20,
+          "patterns": [
+            "ctrade"
+          ],
+          "text": "CTrade m_trade;"
+        },
+        {
+          "line": 46,
+          "patterns": [
+            "ctrade"
+          ],
+          "text": "CTrade* GetTrade() {"
+        },
+        {
+          "line": 87,
+          "patterns": [
+            "ctrade"
+          ],
+          "text": "CTrade* trade = defense.GetTrade();"
+        },
+        {
+          "line": 91,
+          "patterns": [
+            "buy"
+          ],
+          "text": "trade.Buy(lotSize, symbol, price,"
+        },
+        {
+          "line": 98,
+          "patterns": [
+            "sell"
+          ],
+          "text": "trade.Sell(lotSize, symbol, price,"
+        }
+      ],
+      "stub_matches": [
+        {
+          "line": 29,
+          "patterns": [
+            "permissive_true"
+          ],
+          "text": "return true;"
+        },
+        {
+          "line": 131,
+          "patterns": [
+            "permissive_true"
+          ],
+          "text": "return true;"
+        }
+      ],
+      "classification": "execution_boundary_candidate"
+    },
+    {
+      "path": "Include/ExecutionLogic/ExecutionLoopController.mqh",
+      "bytes": 2631,
+      "sha256": "5E696D3F08ACD070444B2FBB5FD9FEC6999F74D9C36B490EE43DFE01373FCCD6",
+      "broker_matches": [],
+      "stub_matches": [
+        {
+          "line": 37,
+          "patterns": [
+            "permissive_true"
+          ],
+          "text": "return true;"
+        },
+        {
+          "line": 72,
+          "patterns": [
+            "permissive_true"
+          ],
+          "text": "return true;"
+        }
+      ],
+      "classification": "analysis_or_support_candidate"
+    },
+    {
+      "path": "Include/ExecutionLogic/PositionManager.mqh",
+      "bytes": 3975,
+      "sha256": "FF93AC3BAC886014EC9BFC94E548DA0CFA7DABB957A32E0B7927E37AFB6357BE",
+      "broker_matches": [
+        {
+          "line": 100,
+          "patterns": [
+            "order_send"
+          ],
+          "text": "return OrderSend(request, result);"
+        }
+      ],
+      "stub_matches": [
+        {
+          "line": 31,
+          "patterns": [
+            "permissive_true"
+          ],
+          "text": "return true;"
+        }
+      ],
+      "classification": "execution_boundary_candidate"
+    },
+    {
+      "path": "Include/ExecutionLogic/SessionManager.mqh",
+      "bytes": 2322,
+      "sha256": "7824F95D381166138F46C2DE2A2DE945659E82CC01E8F2FCDFA76B6F7337979C",
+      "broker_matches": [],
+      "stub_matches": [],
+      "classification": "analysis_or_support_candidate"
+    },
+    {
+      "path": "Include/ExecutionLogic/SignalExecutionAgent.mqh",
+      "bytes": 3949,
+      "sha256": "AEFC09CEDCB009BC06C35694B4C4888D85B6D7D578E2CEFA1932EE4732CD2535",
+      "broker_matches": [],
+      "stub_matches": [],
+      "classification": "analysis_or_support_candidate"
+    },
+    {
+      "path": "Include/ExecutionLogic/TradeExecutor.mqh",
+      "bytes": 1025,
+      "sha256": "7A1EEAF137DAE72024172059FFC3EA6FB8C670281FCF5218CBFB4F8CE16D1E16",
+      "broker_matches": [],
+      "stub_matches": [
+        {
+          "line": 22,
+          "patterns": [
+            "permissive_true"
+          ],
+          "text": "return true;"
+        },
+        {
+          "line": 31,
+          "patterns": [
+            "permissive_true"
+          ],
+          "text": "return true;"
+        }
+      ],
+      "classification": "analysis_or_support_candidate"
+    },
+    {
+      "path": "Include/ExecutionLogic/TradeExecutorSkyIntel.mqh",
+      "bytes": 3375,
+      "sha256": "99C9AD8DB4DE2DE7C4F83BD219A4AC93389DADDF268F9C8661B02CAC0F5496BF",
+      "broker_matches": [
+        {
+          "line": 21,
+          "patterns": [
+            "ctrade"
+          ],
+          "text": "CTrade trade;"
+        },
+        {
+          "line": 49,
+          "patterns": [
+            "buy"
+          ],
+          "text": "if (trade.Buy(volume, symbol, price, 0, 0, \"SKYINTEL_LONG\"))"
+        },
+        {
+          "line": 58,
+          "patterns": [
+            "sell"
+          ],
+          "text": "if (trade.Sell(volume, symbol, price, 0, 0, \"SKYINTEL_SHORT\"))"
+        }
+      ],
+      "stub_matches": [
+        {
+          "line": 52,
+          "patterns": [
+            "permissive_true"
+          ],
+          "text": "return true;"
+        },
+        {
+          "line": 61,
+          "patterns": [
+            "permissive_true"
+          ],
+          "text": "return true;"
+        }
+      ],
+      "classification": "execution_boundary_candidate"
+    },
+    {
+      "path": "Include/Integration/SkyIntelBridge.mqh",
+      "bytes": 3606,
+      "sha256": "A7F431B9CFE0493D160AD3FC59AF8606257B31ABA16B0E6D30C6DE217DD803F2",
+      "broker_matches": [],
+      "stub_matches": [
+        {
+          "line": 40,
+          "patterns": [
+            "permissive_true"
+          ],
+          "text": "return true;"
+        }
+      ],
+      "classification": "analysis_or_support_candidate"
+    },
+    {
+      "path": "Include/Intelligence/ComplianceGuardian.mqh",
+      "bytes": 2957,
+      "sha256": "0556749B6C58DF7FBC23E4FB830E428FB9A0B667A5B090421048B8FA73D69D1B",
+      "broker_matches": [],
+      "stub_matches": [],
+      "classification": "analysis_or_support_candidate"
+    },
+    {
+      "path": "Include/Intelligence/DeepPersonaLens.mqh",
+      "bytes": 2355,
+      "sha256": "AE4F35D7E00126813AEBEF56CE2AFA96BE7F24BD69BE49BA470DB31A8C14AB38",
+      "broker_matches": [],
+      "stub_matches": [],
+      "classification": "analysis_or_support_candidate"
+    },
+    {
+      "path": "Include/Intelligence/ScenarioIntelCore.mqh",
+      "bytes": 3666,
+      "sha256": "2BC00883C2BA671E7B717FA5C1B685A0A1940E839409158899D66B9FD109F996",
+      "broker_matches": [],
+      "stub_matches": [],
+      "classification": "analysis_or_support_candidate"
+    },
+    {
+      "path": "Include/Intelligence/SkyCrawlerNet.mqh",
+      "bytes": 1621,
+      "sha256": "2E6D179A973993814B29F497352F95169EF3F7C5AB33C05EE455EDAE426C4B2A",
+      "broker_matches": [],
+      "stub_matches": [],
+      "classification": "analysis_or_support_candidate"
+    },
+    {
+      "path": "Include/Intelligence/SkyIntelCore.mqh",
+      "bytes": 2113,
+      "sha256": "8F0C640574644EA327B955AE3AF57C053895A7E57E53C6A4A3F2E2E06A690066",
+      "broker_matches": [],
+      "stub_matches": [],
+      "classification": "analysis_or_support_candidate"
+    },
+    {
+      "path": "Include/Modules/VolatilityFilter.mqh",
+      "bytes": 2383,
+      "sha256": "B1A1BFDBC097C625AEA3BB48A982003565B057805A3F3C6CB4BECED91A5FA12C",
+      "broker_matches": [],
+      "stub_matches": [],
+      "classification": "analysis_or_support_candidate"
+    },
+    {
+      "path": "Include/Tools/StressTestSuite.mqh",
+      "bytes": 3550,
+      "sha256": "2880D326A5D6184561B15105E26DAB34A2030ED41502AE3D344A2CBF9040691E",
+      "broker_matches": [],
+      "stub_matches": [],
+      "classification": "analysis_or_support_candidate"
+    },
+    {
+      "path": "Include/Visuals/DefenseDashboard.mq5",
+      "bytes": 3883,
+      "sha256": "15A0422E1D13E1203EB63F02ADED6E39CB6D14818999C1B5FBABF687E40ACAF2",
+      "broker_matches": [],
+      "stub_matches": [],
+      "classification": "analysis_or_support_candidate"
+    },
+    {
+      "path": "Include/Visuals/DependencyDashboard.mq5",
+      "bytes": 15916,
+      "sha256": "C3BDABF225732C69702CBE9BAC9F5A06701D86A8161D2A932C4529BF33FAE2D1",
+      "broker_matches": [],
+      "stub_matches": [],
+      "classification": "analysis_or_support_candidate"
+    },
+    {
+      "path": "Include/Visuals/SkyIntelStatusPanel.mq5",
+      "bytes": 4182,
+      "sha256": "DA41C5751DCB436BF621D54CD90978BEAD14B5C07B1A4FFB0064E3A799AA5995",
+      "broker_matches": [],
+      "stub_matches": [],
+      "classification": "analysis_or_support_candidate"
+    },
+    {
+      "path": "Scripts/AuditIncludes.mq5",
+      "bytes": 3851,
+      "sha256": "D5D8B8BF283175D158317727CE433DE35CB159D1C0BC9D659B949F540E11C0CD",
+      "broker_matches": [],
+      "stub_matches": [
+        {
+          "line": 103,
+          "patterns": [
+            "permissive_true"
+          ],
+          "text": "return true;"
+        }
+      ],
+      "classification": "analysis_or_support_candidate"
+    },
+    {
+      "path": "Scripts/AuditoriaCompleta.mq5",
+      "bytes": 19703,
+      "sha256": "5E299BC899AEFDAA383264D993302519D95959E4C59D393A8413F91981E3E6B4",
+      "broker_matches": [
+        {
+          "line": 310,
+          "patterns": [
+            "ctrade"
+          ],
+          "text": "if(StringFind(content, \"trade.\") >= 0 && StringFind(content, \"CTrade trade\") == -1)"
+        }
+      ],
+      "stub_matches": [
+        {
+          "line": 45,
+          "patterns": [
+            "todo"
+          ],
+          "text": "AuditLog(\"\ud83d\udccb Verificando todo o projeto EA Numeia...\", LOG_LEVEL_INFO);"
+        }
+      ],
+      "classification": "execution_boundary_candidate"
+    },
+    {
+      "path": "Scripts/AuditoriaObrigatoria.mq5",
+      "bytes": 9489,
+      "sha256": "9973A662AFE303677092F3A404942A3DC99EC1DC7473275C03DD098633F8A819",
+      "broker_matches": [],
+      "stub_matches": [],
+      "classification": "analysis_or_support_candidate"
+    },
+    {
+      "path": "Scripts/AuditoriaSintatica.mq5",
+      "bytes": 10163,
+      "sha256": "1D066C1E9616648D3D439A2592774CE2BB0E21C207D0210E9644B9FAB15925F5",
+      "broker_matches": [],
+      "stub_matches": [],
+      "classification": "analysis_or_support_candidate"
+    },
+    {
+      "path": "Scripts/DependencyMonitor.mq5",
+      "bytes": 10993,
+      "sha256": "F2D6D73A0033D7CCC9F1254DD997FC218FDE13B224BB644A7D006AABE9153940",
+      "broker_matches": [],
+      "stub_matches": [
+        {
+          "line": 153,
+          "patterns": [
+            "permissive_true"
+          ],
+          "text": "return true;"
+        }
+      ],
+      "classification": "analysis_or_support_candidate"
+    },
+    {
+      "path": "Scripts/FinalCompilationTest.mq5",
+      "bytes": 14087,
+      "sha256": "FE0586B7AD7D567E56F220F4E58FFC15FA8BE17045E0D26BFF091AA8EAA3EA80",
+      "broker_matches": [],
+      "stub_matches": [
+        {
+          "line": 251,
+          "patterns": [
+            "permissive_true"
+          ],
+          "text": "return true;"
+        }
+      ],
+      "classification": "analysis_or_support_candidate"
+    },
+    {
+      "path": "Scripts/QuantumAudit/AuditEntanglementBridge.mqh",
+      "bytes": 11378,
+      "sha256": "F179C56F6B3BE78DD28467525251D19D8EA8C2AACFB0DD963D9CC5577EB751BF",
+      "broker_matches": [],
+      "stub_matches": [
+        {
+          "line": 46,
+          "patterns": [
+            "permissive_true"
+          ],
+          "text": "return true;"
+        }
+      ],
+      "classification": "analysis_or_support_candidate"
+    },
+    {
+      "path": "Scripts/QuantumAudit/AuditEntanglementPanel.mq5",
+      "bytes": 5979,
+      "sha256": "092E11FC89BA54F6AF82417A3BEF575CB7AD5E2C49FE632374945D732E3F1F3C",
+      "broker_matches": [],
+      "stub_matches": [],
+      "classification": "analysis_or_support_candidate"
+    },
+    {
+      "path": "Scripts/QuantumAudit/QuantumAuditEngine.mqh",
+      "bytes": 7317,
+      "sha256": "A2BDB5E762BBE9B67027C1E46E927EC3F021F262BE61789F132AE955A15E18E8",
+      "broker_matches": [],
+      "stub_matches": [
+        {
+          "line": 28,
+          "patterns": [
+            "permissive_true"
+          ],
+          "text": "return true;"
+        },
+        {
+          "line": 108,
+          "patterns": [
+            "permissive_true"
+          ],
+          "text": "return true;"
+        },
+        {
+          "line": 200,
+          "patterns": [
+            "permissive_true"
+          ],
+          "text": "return true;"
+        }
+      ],
+      "classification": "analysis_or_support_candidate"
+    },
+    {
+      "path": "Scripts/QuantumAudit/QuantumEntanglementMap.mqh",
+      "bytes": 11825,
+      "sha256": "BF2686E4E0599D1FAFC7769074360D664FA8541A986FB4FE7C322CDD08F0F15F",
+      "broker_matches": [],
+      "stub_matches": [
+        {
+          "line": 35,
+          "patterns": [
+            "permissive_true"
+          ],
+          "text": "return true;"
+        },
+        {
+          "line": 107,
+          "patterns": [
+            "permissive_true"
+          ],
+          "text": "return true;"
+        },
+        {
+          "line": 329,
+          "patterns": [
+            "permissive_true"
+          ],
+          "text": "return true;"
+        },
+        {
+          "line": 353,
+          "patterns": [
+            "permissive_true"
+          ],
+          "text": "return true;"
+        }
+      ],
+      "classification": "analysis_or_support_candidate"
+    },
+    {
+      "path": "Scripts/RegisterAllModules.mq5",
+      "bytes": 14279,
+      "sha256": "1ADBDF9760545C98604089333B65452015F5ECB749EFE1D6569C046286D09B84",
+      "broker_matches": [],
+      "stub_matches": [],
+      "classification": "analysis_or_support_candidate"
+    },
+    {
+      "path": "Scripts/RunAllTests.mq5",
+      "bytes": 17336,
+      "sha256": "CEF3E8314219AC2E3D691439D1C7ABA5D2BCF09796365D8762BDB8D548225F4B",
+      "broker_matches": [],
+      "stub_matches": [],
+      "classification": "analysis_or_support_candidate"
+    },
+    {
+      "path": "Scripts/RunQuantumAuditSystem.mq5",
+      "bytes": 8120,
+      "sha256": "C9C1117DA635F5557213E1E679A7DE1499F133A8104430E821040825CC6EFB76",
+      "broker_matches": [],
+      "stub_matches": [],
+      "classification": "analysis_or_support_candidate"
+    },
+    {
+      "path": "Scripts/TestCompilation.mq5",
+      "bytes": 5034,
+      "sha256": "E066624E482CBC39A87839BF99144BA123E27B67A6E5853FD4D2D8946D5ED206",
+      "broker_matches": [],
+      "stub_matches": [],
+      "classification": "analysis_or_support_candidate"
+    },
+    {
+      "path": "Scripts/TestCompleteIntegration.mq5",
+      "bytes": 13810,
+      "sha256": "8DA445C8BC6CBCC39D721E639533D1CDCECFCD0E0BE9FA2C48A607681DF9EF92",
+      "broker_matches": [],
+      "stub_matches": [
+        {
+          "line": 226,
+          "patterns": [
+            "permissive_true"
+          ],
+          "text": "return true;"
+        },
+        {
+          "line": 236,
+          "patterns": [
+            "permissive_true"
+          ],
+          "text": "return true;"
+        },
+        {
+          "line": 259,
+          "patterns": [
+            "permissive_true"
+          ],
+          "text": "return true;"
+        },
+        {
+          "line": 271,
+          "patterns": [
+            "permissive_true"
+          ],
+          "text": "return true;"
+        },
+        {
+          "line": 283,
+          "patterns": [
+            "permissive_true"
+          ],
+          "text": "return true;"
+        },
+        {
+          "line": 361,
+          "patterns": [
+            "permissive_true"
+          ],
+          "text": "return true;"
+        },
+        {
+          "line": 377,
+          "patterns": [
+            "permissive_true"
+          ],
+          "text": "return true;"
+        },
+        {
+          "line": 402,
+          "patterns": [
+            "permissive_true"
+          ],
+          "text": "return true;"
+        }
+      ],
+      "classification": "analysis_or_support_candidate"
+    },
+    {
+      "path": "Scripts/TesteArquiteturaVisual.mq5",
+      "bytes": 5987,
+      "sha256": "22122A841B6CEA8A950F463D2E662472ED863304E4F47D3BF1051020EF0B8DBF",
+      "broker_matches": [],
+      "stub_matches": [],
+      "classification": "analysis_or_support_candidate"
+    },
+    {
+      "path": "Scripts/TesteAuditoriaSimples.mq5",
+      "bytes": 3790,
+      "sha256": "8BCF54106B609F4AC040E967C7FBC8AD5376CD17563CD32E43DB883EFA670062",
+      "broker_matches": [],
+      "stub_matches": [],
+      "classification": "analysis_or_support_candidate"
+    },
+    {
+      "path": "Scripts/TesteCompilacao.mq5",
+      "bytes": 5681,
+      "sha256": "CB8D2AE80DCF6D0A42D1260D4399F65A88EF3360B44431B9D40097FE80DD7848",
+      "broker_matches": [],
+      "stub_matches": [],
+      "classification": "analysis_or_support_candidate"
+    },
+    {
+      "path": "Scripts/TesteCompilacaoFinal.mq5",
+      "bytes": 7583,
+      "sha256": "772B3FF062AE479C004918BF7AA94D7A63886567AD08E6A86082DFEC0A8EC3FB",
+      "broker_matches": [],
+      "stub_matches": [],
+      "classification": "analysis_or_support_candidate"
+    },
+    {
+      "path": "Scripts/TesteCompilacaoReal.mq5",
+      "bytes": 9154,
+      "sha256": "7032BCEBB8EE0A49C55F4510A62891EA66C40EFE7E797E3D9D7CFB37161CDF75",
+      "broker_matches": [
+        {
+          "line": 101,
+          "patterns": [
+            "ctrade"
+          ],
+          "text": "CTrade* trade = defense.GetTrade();"
+        }
+      ],
+      "stub_matches": [],
+      "classification": "execution_boundary_candidate"
+    },
+    {
+      "path": "Scripts/TesteCompletoSistema.mq5",
+      "bytes": 7212,
+      "sha256": "48566740FAC73336CDAED85F57074345F93E0CDF441CF63870DDDBF2898F1DB9",
+      "broker_matches": [],
+      "stub_matches": [
+        {
+          "line": 121,
+          "patterns": [
+            "permissive_true"
+          ],
+          "text": "return true;"
+        },
+        {
+          "line": 167,
+          "patterns": [
+            "permissive_true"
+          ],
+          "text": "return true;"
+        },
+        {
+          "line": 220,
+          "patterns": [
+            "permissive_true"
+          ],
+          "text": "return true;"
+        }
+      ],
+      "classification": "analysis_or_support_candidate"
+    },
+    {
+      "path": "Scripts/TesteFinal.mq5",
+      "bytes": 8989,
+      "sha256": "C1F269706CE14F60CF922CF23D6C1F8510481475A28FA4CBD922B4DC3E0E66D4",
+      "broker_matches": [],
+      "stub_matches": [],
+      "classification": "analysis_or_support_candidate"
+    },
+    {
+      "path": "Scripts/TesteFinalCompilacao.mq5",
+      "bytes": 6087,
+      "sha256": "5069851A58BBA7B1E0DCFDF88FAE37EE5BA7F9FF9E53C6B4EDB4136F28BE0795",
+      "broker_matches": [],
+      "stub_matches": [],
+      "classification": "analysis_or_support_candidate"
+    },
+    {
+      "path": "Scripts/TesteTypesSimples.mq5",
+      "bytes": 3019,
+      "sha256": "BC030ADD3F4781723C9240CC6B92342392B8BC8D5537F6FC2EBBD0B878BBF9B4",
+      "broker_matches": [],
+      "stub_matches": [],
+      "classification": "analysis_or_support_candidate"
+    },
+    {
+      "path": "Scripts/TesteUltimo.mq5",
+      "bytes": 8618,
+      "sha256": "652B2ECBA4D71DA5557499BEFBA37F545C5039271361D8A561D818BCFB0EC64D",
+      "broker_matches": [],
+      "stub_matches": [],
+      "classification": "analysis_or_support_candidate"
+    },
+    {
+      "path": "Scripts/TesteUltraSimples.mq5",
+      "bytes": 3824,
+      "sha256": "94C5BE6A7BDC893ED8F87F61042D34163987B2412D4D37C487A220030E6FF9D6",
+      "broker_matches": [],
+      "stub_matches": [],
+      "classification": "analysis_or_support_candidate"
+    },
+    {
+      "path": "Scripts/TestQuantumAuditIntegration.mq5",
+      "bytes": 10425,
+      "sha256": "DA40CB2433858F398CF7786AFE7B977109DB797DC184E33A5749FCB4F79AB675",
+      "broker_matches": [],
+      "stub_matches": [
+        {
+          "line": 156,
+          "patterns": [
+            "permissive_true"
+          ],
+          "text": "return true;"
+        },
+        {
+          "line": 276,
+          "patterns": [
+            "permissive_true"
+          ],
+          "text": "return true;"
+        },
+        {
+          "line": 314,
+          "patterns": [
+            "permissive_true"
+          ],
+          "text": "return true;"
+        }
+      ],
+      "classification": "analysis_or_support_candidate"
+    },
+    {
+      "path": "Utils/IndicatorUtils.mqh",
+      "bytes": 2184,
+      "sha256": "DFC08F642DED9DFADF1B8B294492D0421412BF21EFF331D0A898C64975710621",
+      "broker_matches": [],
+      "stub_matches": [],
+      "classification": "analysis_or_support_candidate"
+    },
+    {
+      "path": "Utils/Log.mqh",
+      "bytes": 7320,
+      "sha256": "26F2B22B33E261E34CAEE72CFD66D7F6F12F16AE2B68CBFCCEFFA4B774EB12E4",
+      "broker_matches": [],
+      "stub_matches": [
+        {
+          "line": 102,
+          "patterns": [
+            "permissive_true"
+          ],
+          "text": "return true;"
+        }
+      ],
+      "classification": "analysis_or_support_candidate"
+    },
+    {
+      "path": "Utils/PriceUtils.mqh",
+      "bytes": 1555,
+      "sha256": "D6C2ADC45EB1BE26167F3F3E58F4F76380DCC16D30F58E52617003293169A9E8",
+      "broker_matches": [],
+      "stub_matches": [],
+      "classification": "analysis_or_support_candidate"
+    },
+    {
+      "path": "Utils/TimeUtils.mqh",
+      "bytes": 1169,
+      "sha256": "09EAF70B8209927C51205D330A5A1425EC91DE87EE531A5019FD77928DFDA291",
+      "broker_matches": [],
+      "stub_matches": [],
+      "classification": "analysis_or_support_candidate"
+    }
+  ],
+  "promotion_status": "PENDING_ADAPTER_AND_REPLAY",
+  "broker_side_effect": "NONE_AUDIT_ONLY"
+}
