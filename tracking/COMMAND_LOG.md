@@ -14,5 +14,6 @@
 | 2026-08-21 | Integrated Numeia allocator with Python contracts and FakeExecutor | PASS - 4 tests, 9 intents, 9 fake executions | None |
 | 2026-08-21 | Added strict normalized market-data boundary for allowlisted multi-asset events | PASS - 6 offline contract tests | None |
 | 2026-08-21 | Added close-line-only momentum signal candidate | PASS - 8 offline contract tests | None |
+| 2026-08-21 | Added pure risk and spread-cost gate between signal and order intent | PASS - 11 offline contract tests | None |
 
 Future work must append one row per material command or change. Do not rewrite prior rows.
