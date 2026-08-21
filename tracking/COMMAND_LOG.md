@@ -12,5 +12,6 @@
 | 2026-08-21 | Searched candidate repositories for high-frequency order/signals leads | PASS - Theodora log lead recorded | None |
 | 2026-08-21 | Python forensic parser ran on Theodora trading_debug.log | PASS - 2 tests, parser-only | None |
 | 2026-08-21 | Integrated Numeia allocator with Python contracts and FakeExecutor | PASS - 4 tests, 9 intents, 9 fake executions | None |
+| 2026-08-21 | Added strict normalized market-data boundary for allowlisted multi-asset events | PASS - 6 offline contract tests | None |
 
 Future work must append one row per material command or change. Do not rewrite prior rows.
