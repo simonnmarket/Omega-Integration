@@ -15,5 +15,6 @@
 | 2026-08-21 | Added strict normalized market-data boundary for allowlisted multi-asset events | PASS - 6 offline contract tests | None |
 | 2026-08-21 | Added close-line-only momentum signal candidate | PASS - 8 offline contract tests | None |
 | 2026-08-21 | Added pure risk and spread-cost gate between signal and order intent | PASS - 11 offline contract tests | None |
+| 2026-08-21 | Closed offline integrated candidate path: line signal -> risk gate -> intent -> fake execution | PASS - 13 offline tests; 1 BUY fake fill, 1 FLAT denied | None |
 
 Future work must append one row per material command or change. Do not rewrite prior rows.

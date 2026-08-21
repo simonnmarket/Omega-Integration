@@ -1,0 +1,22 @@
+{
+  "candidate": "OMEGA_INTEGRATED_LINE_CANDIDATE_V1",
+  "mode": "FAKE_EXECUTOR",
+  "broker_access": "NONE",
+  "results": [
+    {
+      "symbol": "XAUUSD",
+      "direction": "BUY",
+      "gate": "ALLOW",
+      "intent_id": "OMEGA_INTEGRATED_LINE_CANDIDATE_V1:LINE_MOMENTUM_BASELINE_V1:XAUUSD:e-buy",
+      "execution_status": "FILLED_FAKE"
+    },
+    {
+      "symbol": "EURUSD",
+      "direction": "FLAT",
+      "gate": "SIGNAL_FLAT",
+      "intent_id": null,
+      "execution_status": null
+    }
+  ],
+  "economic_result": "NOT_EVALUATED"
+}
